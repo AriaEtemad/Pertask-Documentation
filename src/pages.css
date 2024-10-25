@@ -1,0 +1,153 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.p1 {
+  margin-left: 0px;
+  width: 80%;
+  margin-top: 30px;
+  background-color: #e9e9e9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.active-submenu-item {
+  font-weight: bold;
+  color: #1d4ed8;
+  /* Tailwind's blue-600 */
+  background-color: #e9e9e9;
+}
+
+.line1 {
+  margin-top: 30px;
+}
+/* Add this to your CSS file */
+/* Add this to your CSS file */
+
+.social-icons a {
+  color: #646464;
+  font-size: 28px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #1d4ed8;
+  /* Tailwind's blue-600 */
+}
+
+.relative {
+  position: relative;
+}
+
+.breadcrumb a {
+  color: #1d4ed8;
+  /* Tailwind's blue-600 */
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem;
+  margin-left: 0px;
+}
+
+.box {
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-height: 500px;
+  /* Adjust this value as needed */
+  overflow-y: auto;
+  /* Add scrolling if content exceeds max height */
+  opacity: 0;
+  /* Start hidden */
+  transform: scale(0.95);
+  /* Start with a slight scale down */
+  animation: fadeInScale 0.6s forwards;
+  /* Animation effect */
+}
+
+/* New animation for boxes */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.box h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.box h2 i {
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+  /* Adjust icon size here */
+}
+
+.box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.box ul li {
+  margin-bottom: 0.5rem;
+}
+
+.box ul li a {
+  text-decoration: none;
+  color: #1d4ed8;
+}
+
+.box ul li a:hover {
+}
+
+.box:nth-child(7) {
+  max-height: 500px;
+  /* Adjust height as needed */
+  overflow-y: auto;
+  /* Add scrolling if needed */
+}
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+/* Example styles */
+.main-content {
+  overflow-y: auto; /* Ensure this is set */
+  max-height: 100vh; /* or appropriate height */
+}

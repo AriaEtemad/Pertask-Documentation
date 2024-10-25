@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p2 {
+  margin-left: 80px;
+  padding-left: 20px;
+  font-weight: normal;
+  position: relative;
+  margin-top: 10px;
+}
+
+.p2:before {
+  content: "\25A0";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.p3 {
+  margin-left: 80px;
+  padding-left: 20px;
+  font-weight: normal;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.p3:before {
+  content: "\25A0";
+  position: absolute;
+  left: 0;
+  top: 65%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.p4 {
+  margin-left: 80px;
+  padding-left: 20px;
+  font-weight: normal;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.p4:before {
+  content: "\25A0";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.p5 {
+  margin-left: 80px;
+  padding-left: 20px;
+  font-weight: normal;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.p5:before {
+  content: "\25A0";
+  position: absolute;
+  left: 0;
+  top: 65%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.p6 {
+  margin-left: 80px;
+  padding-left: 20px;
+  font-weight: normal;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.p6:before {
+  content: "\25A0";
+  position: absolute;
+  left: 0;
+  top: 69%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.line1 {
+  margin-top: 30px;
+}

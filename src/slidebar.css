@@ -1,0 +1,65 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.sidebar {
+  width: 280px;
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 700px;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sidebar a:hover {
+  background-color: #e9e9e9;
+}
+
+.toggle-icon {
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+.sub-menu {
+  display: none;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.sub-menu a {
+  padding: 5px 15px;
+}
+
+.sub-menu.open {
+  display: block;
+}
+
+input {
+  padding-left: 2.5rem;
+  /* Adjust this padding to make space for the icon */
+  height: 30px;
+}
+
+input::placeholder {
+  color: #616060;
+  /* Change this to your desired color */
+  opacity: 1;
+  /* Ensure the placeholder is fully opaque */
+  font-weight: normal;
+}
+
+.show {
+  display: block;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
