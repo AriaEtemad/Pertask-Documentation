@@ -94,7 +94,7 @@ const CreateActivity = () => {
                 in Pertask for creating Activity go to the
                 <Link
                   className="next-link text-blue-600 font-medium ml-1"
-                  to="/Introduction-of-All-Fields/Intro-Activity.js"
+                  to="/Introduction-of-All-Fields/Intro-Activity"
                 >
                   Fields for Creating Activity
                 </Link>
