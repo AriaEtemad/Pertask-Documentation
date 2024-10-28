@@ -91,7 +91,7 @@ const CreateTask = () => {
                 in Pertask for creating Task go to the{" "}
                 <Link
                   className="next-link text-blue-600 font-medium ml-1"
-                  to="./Introduction-of-All-Fields/Intro-Task"
+                  to="/Introduction-of-All-Fields/Intro-Task"
                 >
                   Fields for Creating Task
                 </Link>

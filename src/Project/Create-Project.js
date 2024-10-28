@@ -83,7 +83,7 @@ const CreateProject = () => {
                 in Pertask for creating Project go to the{" "}
                 <Link
                   className="next-link text-blue-600 font-medium ml-1"
-                  to="./Introduction-of-All-Fields/Intro-Project"
+                  to="/Introduction-of-All-Fields/Intro-Project"
                 >
                   Fields for Creating Project
                 </Link>

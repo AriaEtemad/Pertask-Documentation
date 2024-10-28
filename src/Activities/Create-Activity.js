@@ -89,6 +89,16 @@ const CreateActivity = () => {
               <p className="mb-2">
                 7. Click on the <strong>Add</strong> icon.
               </p>
+              <p className="p1">
+                <strong>Note:</strong> for a better understanding of all fields
+                in Pertask for creating Activity go to the
+                <Link
+                  className="next-link text-blue-600 font-medium ml-1"
+                  to="/Introduction-of-All-Fields/Intro-Activity.js"
+                >
+                  Fields for Creating Activity
+                </Link>
+              </p>
             </div>
           </div>
           {/* Images */}
