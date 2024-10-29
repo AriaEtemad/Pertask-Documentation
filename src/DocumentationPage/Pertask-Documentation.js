@@ -204,25 +204,25 @@ const DocumentationPage = () => {
           <hr className="line border-t border-gray-400 mb-5" />
           <ul>
             <li>
-              <Link to="/Introduction of All Fields/Intro-Project">
+              <Link to="/Introduction-of-All-Fields/Intro-Project">
                 Fields for Project
               </Link>
             </li>
             <hr className="line border-t border-gray-400 mb-5" />
             <li>
-              <Link to="/Introduction of All Fields/Intro-Task">
+              <Link to="/Introduction-of-All-Fields/Intro-Task">
                 Fields for Task
               </Link>
             </li>
             <hr className="line border-t border-gray-400 mb-5" />
             <li>
-              <Link to="/Introduction of All Fields/Intro-SubTask">
+              <Link to="/Introduction-of-All-Fields/Intro-SubTask">
                 Fields for Subtask
               </Link>
             </li>
             <hr className="line border-t border-gray-400 mb-5" />
             <li>
-              <Link to="/Introduction of All Fields/Intro-Activity">
+              <Link to="/Introduction-of-All-Fields/Intro-Activity">
                 Fields for Activity
               </Link>
             </li>
